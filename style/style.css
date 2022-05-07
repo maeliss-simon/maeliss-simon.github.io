@@ -70,18 +70,19 @@ body{
     flex-direction: column;
     align-self: center;
     color: white;
-    background-color: rgba(128, 128, 128, 0.6);
-    border-radius: 50px;
     font-family:-apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
     font-size: 28px;
     padding: 2% 6%;
     margin: 0 1%;
 }
 .contenu h3{
+    background-color: rgba(128, 128, 128, 0.777);
+    border-radius: 50px;
     display: flex;
     align-self: center;
     font-size: 54px;
     font-weight: bold;
+    padding: 1%;
 }
 .c1{
     display: flex;
@@ -115,6 +116,11 @@ body{
 }
 .image{
     max-width: 35%;
+}
+.contenu p{
+    background-color: rgba(128, 128, 128, 0.777);
+    border-radius: 50px;
+    padding: 1%;
 }
 
 .conteneur2{
