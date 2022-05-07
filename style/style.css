@@ -88,12 +88,14 @@ body{
 }
 .contenu h3{
     background-color: rgba(128, 128, 128, 0.777);
-    border-radius: 50px;
     display: flex;
     align-self: center;
     font-size: 54px;
     font-weight: bold;
     padding: 1.5%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 }
 .c1{
     display: flex;
@@ -119,19 +121,26 @@ body{
 }
 .imageArfis{
     max-width: 20%;
-    border-radius: 20px;
+    border-style: solid;
 }
 .imageMaeliss{
     max-width: 30%;
-    border-radius: 90px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
 }
 .image{
     max-width: 35%;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
 }
 .contenu p{
     background-color: rgba(128, 128, 128, 0.777);
-    border-radius: 50px;
     padding: 1.5%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
 
 .conteneur2{
