@@ -1,7 +1,9 @@
 body{
     background-image: url(../img/fondFonce.jpeg);
     background-size: cover;
-    background-position-y: 20%;
+    background-position:right;
+    background-position-x: 55%;
+    background-position-y: 30%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
