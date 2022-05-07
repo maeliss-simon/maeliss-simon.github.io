@@ -1,6 +1,13 @@
 body{
+    background-image: url(../img/fondFonce.jpeg);
+    background-size: cover;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.blockscroll{
     overflow: hidden;
-    background-color: lightgrey;
 }
 
 .conteneur{
@@ -20,15 +27,26 @@ body{
     padding: 1%;
 }
 .conteneur h1{
+    background-color: rgba(71, 71, 71, 0.8);
+    color: white;
     margin: 16px;   
+    border-style:solid;
+    padding: 8px 15px;
     font-family:-apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
-    font-size: 44px;
+    font-size: 64px;
     font-weight: bold;
+    transition: all 0.2s linear 0s;
+}
+.conteneur h1:hover{
+    border-color: transparent;
+    background-color: black;
+    cursor:default;
 }
 .conteneur h2{
     margin: 25px 16px;
+    color: white;
     font-family:-apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
 }
 .conteneur nav{
@@ -39,40 +57,62 @@ body{
 }
 .conteneur nav ul{
     padding: 0px;
-    margin: 16px;
+    margin: 10px;
 }
 .conteneur nav ul a{
     font-family:-apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: white;
     display: list-item !important;
     list-style: none !important;
+    width:fit-content;
+    /* background-color: rgba(1, 0, 0, 0.5); */
+    border-radius: 50px;
+    /* padding: 8px; */
+}
+.second h1{
+    font-size: 44px;
+}
+.second h2{
+    font-size: 24px;
 }
 
 .contenu{
     display: flex;
     flex-direction: column;
     align-self: center;
+    color: white;
+    max-width: 70%;
+    background-color: rgba(128, 128, 128, 0.9);
+    border-radius: 50px;
+    font-family:-apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
 }
 
-
+.second h3{
+    display: flex;
+    align-self: center;
+    font-size: 54px;
+    font-weight: bold;
+}
+.second span{
+    font-size: 24px;
+    padding: 20px;
+}
 .effect {
     display: flex;
     align-self: flex-start;
     text-decoration: none;
     font-size: 22px;
     text-decoration: none;
-    background-color: transparent;
+    background-color:white;
     font-family:-apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
     font-weight: bold;
-    border-radius: 50px;
     border-style:solid;
     border-color: black;
     color:black;
     text-decoration: none;
     padding: 1% 2%;
-    overflow: hidden;
 }
 .effect.effect1 {
     transition: all 0.2s linear 0s;
@@ -82,14 +122,13 @@ body{
     position: absolute;
     left: 0px;
     width: 30px;
-    border-radius: 0 50% 50% 0;
     transform: scale(0,1);
     padding: 0px 3%;
     transform-origin: left center;
     transition: all 0.2s linear 0s;
 }
 .effect.effect1:hover {
-    background-color: grey;
+    background-color: black;
     color:  white;
     border-color: transparent;
     text-indent: 30px;
@@ -98,4 +137,17 @@ body{
 .effect.effect1:hover:before {
     transform: scale(1,1);
     text-indent: 0;
+}
+
+
+.license{
+    position: absolute;
+    display: flex;
+    right: 15px;
+    bottom: 5px;
+    font-family:-apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    font-weight: bold;
+}
+.license a{
+    color:white;
 }
