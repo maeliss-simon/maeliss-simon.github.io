@@ -82,7 +82,7 @@ body{
     align-self: center;
     font-size: 54px;
     font-weight: bold;
-    padding: 1%;
+    padding: 1.5%;
 }
 .c1{
     display: flex;
@@ -120,7 +120,7 @@ body{
 .contenu p{
     background-color: rgba(128, 128, 128, 0.777);
     border-radius: 50px;
-    padding: 1%;
+    padding: 1.5%;
 }
 
 .conteneur2{
