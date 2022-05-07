@@ -201,7 +201,7 @@ body{
 }
 
 .license{
-    position: absolute;
+    position: fixed;
     display: flex;
     right: 15px;
     bottom: 5px;
