@@ -79,7 +79,8 @@ body{
 .contenu{
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-self: stretch;
+    align-items: center;
     color: white;
     font-family:-apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
     font-size: 28px;
@@ -98,8 +99,8 @@ body{
     border-width: 5px;
 }
 .c1{
-    display: flex;
-    max-width: 45%;
+    align-self: flex-start;
+    max-width: 48%;
 }
 .c2{
     display: flex;
@@ -107,8 +108,8 @@ body{
     align-self: flex-end;
 }
 .c3{
-    display: flex;
     max-width: 40%;
+    align-self: flex-start;
 }
 .c4{
     display: flex;
@@ -118,6 +119,7 @@ body{
 .c5{
     display: flex;
     max-width: 50%;
+    align-self: flex-start;
 }
 .imageArfis{
     max-width: 20%;
@@ -146,8 +148,6 @@ body{
 .conteneur2{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     left: 0;
     right: 0;
 }
@@ -243,4 +243,106 @@ body{
 }
 .license a{
     color:white;
+}
+.MaJ{
+    position: fixed;
+    display: flex;
+    left: 15px;
+    bottom: 5px;
+    font-family:-apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 0.1%;
+}
+
+.div1{
+    display: flex;
+    align-self: stretch;
+    justify-content: space-around;
+}
+.div2{
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+.div3{
+   display: flex;
+   width: 50%;
+   margin-top: 0;
+}
+.photoMaeliss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+}
+.arfisLogo{
+    max-width: 400px;
+}
+.imageMaeliss-end{
+    max-width: 30%;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    align-self: flex-start;
+}
+.bottom{
+    align-self:flex-end;
+    margin-bottom: 0;
+}
+
+.divNuage1{
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+}
+.divNuage2{
+    display: flex;
+    align-self: stretch;
+    justify-content: space-around;
+}
+.divNuage3{
+    display: flex;
+    align-self: stretch;
+    justify-content: flex-end;
+    max-width: 78%;
+}
+.interNuage1{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    margin-bottom: -20px;
+    margin-right: 10%;
+}
+.interNuage2{
+    margin-left: 10%;
+}
+.nuage{
+    font-size:32px;
+    font-weight: bold;
+}
+.n1{
+    width: fit-content;
+    padding:0;
+    margin:0;
+}
+.n2{
+    width: fit-content;
+    padding:0;
+    margin:0;
+}
+.n3{
+    align-self: flex-end;
+}
+.n4{
+    align-self: center;
+}
+
+.imageMaeliss-nuage{
+    max-width: 800px;
+    border-color: white;
+    border-style: solid;
+    margin: 5% 0%;
 }
